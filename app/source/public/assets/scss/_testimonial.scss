@@ -1,0 +1,184 @@
+// /*=====================Testimonial Section Style======================*/
+
+
+section.testimonial {
+    position: relative;
+    padding-top: 200px;  
+    overflow: hidden;
+
+    .owl-dots {
+        counter-reset: dots;
+        position: absolute;
+    right: 4%;
+        .owl-dot{
+            position: relative;
+            transition: .5s ease;
+
+            span{
+                
+                transition: .5s ease;
+                background: transparent;
+
+                &::before{
+                    font-family: "Gotham Narrow";
+                    font-size: 15px;
+                    counter-increment: dots;
+                    content: counter(dots);
+                    color: #363535;
+                }
+
+                &:hover{
+                    background: transparent;
+                }
+            }
+
+            
+            &:hover{
+                span{
+                    background: transparent;
+                } 
+            }
+        }
+        .owl-dot.active{
+
+            span{
+                background: transparent;
+                transition: .5s ease;
+
+                &::before{
+                   color: $hoverColor;
+                }
+                &::after{
+                    position: absolute;
+                    content: '';
+                    height: 2px;
+                    width: 15px;
+                    background: $hoverColor;
+                    bottom: -12px;
+                    left: 20%;
+                    transition: .5s ease;
+                }
+            }
+            
+            &:hover{
+                span{
+                    background: transparent;
+                } 
+            }
+        }
+    }
+    .client-quota {
+        left: 52%;
+        position: absolute;
+        color: #f8f8f8;
+        font-size: 500px;
+       transform: rotate(180deg);
+       top: 18%;
+     }
+    .testimonial-slid1{
+        position: relative;
+        margin-left: -40%;
+        width: 115%;
+    }
+
+    .testimonial-slid2{
+        margin-top: 30px; 
+        .owl-nav {
+            position: absolute;
+            right: -5%;
+            color: #363535;
+            margin: 0;
+            font-size: 30px;
+            transition: .5s ease;
+
+            button.owl-next{
+                
+            transition: .5s ease;
+                &:hover{
+                    background: transparent;
+                    color: $hoverColor;
+                    }
+            }
+           
+        }
+
+        p{
+            font-style: italic;
+            font-size: 18px;
+            font-weight: 400;
+            color: #333333;
+            line-height: 32px;
+        }
+        .client {
+            position: relative;
+            margin-top: 30px;
+            p{
+                font-style: initial;
+                 color: inherit;
+                 font-size: 16px;
+            }
+            h5{
+                text-transform: uppercase;
+            }
+        }
+
+    }
+    .testimonial-slid3 {
+            position: relative;
+            margin-left: 30%;
+            width: 115%;
+            margin-top: 60px;
+    }
+}
+
+
+section.testimonial.dark {
+    .client-quota {
+        color: #2c2b2b;
+    }
+    .testimonial-slid2{
+        .owl-dots {
+            counter-reset: dots;
+            position: absolute;
+             right: 4%;
+            .owl-dot{
+    
+                span{
+    
+                    &::before{
+                        color: #ffffff;
+                    }
+    
+                }
+            }
+            .owl-dot.active{
+    
+                span{
+    
+                    &::after{
+                        background: #fff;
+                    }
+                }
+                
+                &:hover{
+                    span{
+                        background: transparent;
+                    } 
+                }
+            }
+        }
+        .owl-nav {
+            color: #ffffff;
+        }
+
+        p{
+            color: #e2e2e2;
+        }
+        .client {
+            h5 {
+                color: #fff;
+            }
+        }
+    }
+}
+// /*=====================End Testimonial Section Style======================*/

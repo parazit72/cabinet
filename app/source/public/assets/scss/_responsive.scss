@@ -1,0 +1,1249 @@
+/*========================
+
+Responsive Style
+
+==========================*/
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width\
+
+@media only screen and (max-width: 1920px) {
+}
+
+@media only screen and (max-width: 1715px) {
+    section.mextreo-about .m-about-content h2.ab-tittle {
+        font-size: 140px;
+        left: -30%;
+    }
+    section.mextreo-service .m-s-content h2.ms-tittle {
+        font-size: 140px;
+        left: -40%;
+    }
+    section.recent-project .recent-pro-top h2.rp-tittle {
+        font-size: 140px;
+        left: 22%;
+    }
+
+    section.mextreo-blog .mex-blog-top h2.mb-tittle {
+        font-size: 140px;
+        // left: 28%;
+    }
+    section.mextreo-hero.dark .hero-2-slider {
+        width: 136%;
+    }
+    section.mextreo-hero.inner .hero-inner-img {
+        width: 128%;
+    }
+
+    section.interior .interior-img {
+        margin-left: 15%;
+    }
+    section.architect .archit-img {
+        margin-left: -32%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 1499px) {
+    section.mextreo-service .m-s-content h2.ms-tittle {
+        font-size: 100px;
+        left: -30%;
+    }
+    section.mextreo-about .m-about-content h2.ab-tittle {
+        font-size: 100px;
+    }
+    section.recent-project .recent-pro-top h2.rp-tittle {
+        font-size: 100px;
+        left: 30%;
+    }
+    section.mextreo-blog .mex-blog-top h2.mb-tittle {
+        font-size: 100px;
+        // left: 35%;
+    }
+    li.tel {
+        right: 15%;
+    }
+    #rev_slider_22_1_wrapper .persephone.tparrows {
+        top: 115% !important;
+    }
+    section.mextreo-hero.dark .hero-2-slider {
+        width: 117%;
+        margin-left: 0;
+    }
+    section.mextreo-hero.inner .hero-inner-img {
+        width: 109%;
+    }
+    section.interior .interior-img {
+        margin-left: 5%;
+        width: 110%;
+    }
+    section.architect .archit-img {
+        margin-left: -18%;
+    }
+    section.project-gallery {
+        margin-top: 120px;
+    }
+}
+
+@media only screen and (max-width: 1399px) {
+    section.mextreo-service .m-s-content h2.ms-tittle {
+        font-size: 84px;
+        left: -20%;
+    }
+    section.mextreo-about .m-about-content h2.ab-tittle {
+        font-size: 84px;
+        left: -20%;
+    }
+    section.recent-project .recent-pro-top h2.rp-tittle {
+        font-size: 84px;
+        left: 34%;
+    }
+    section.mextreo-blog .mex-blog-top h2.mb-tittle {
+        font-size: 84px;
+        // left: 38%;
+    }
+    section.testimonial .client-quota {
+        font-size: 340px;
+    }
+    li.tel {
+        right: 10%;
+    }
+
+    section.mextreo-hero.dark .hero-2-slider {
+        width: 109%;
+    }
+    .hero-social ul li a {
+        font-size: 15px;
+    }
+    .hero-social ul li {
+        padding: 12px 0px;
+    }
+    section.mextreo-hero.dark .hero-2-content p {
+        padding: 20px 0px 40px;
+    }
+    section.mextreo-hero.dark .hero-2-content {
+        padding-left: 10%;
+    }
+    section.mextreo-hero.inner .hero-inner-img {
+        width: 100%;
+    }
+    section.mextreo-hero.inner .hero-content {
+        margin-top: 80px;
+    }
+    section.interior .interior-img {
+        width: 100%;
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media only screen and (min-width: 1200px) and (max-width: 1400px) {
+    #rev_slider_22_1_wrapper .persephone.tparrows {
+        top: 130% !important;
+    }
+    li.tel {
+        right: 5%;
+    }
+
+    .dark h1 {
+        font-size: 60px;
+        line-height: 70px;
+    }
+}
+// Large devices (desktops, less than 1200px)
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+    .sm-mint a,
+    .sm-mint a:hover,
+    .sm-mint a:focus,
+    .sm-mint a:active,
+    .sm-mint a.highlighted {
+        padding: 14px 16px;
+    }
+    section.mextreo-hero.dark .hero-2-slider {
+        width: 100%;
+    }
+    section.mextreo-hero.inner .hero-content {
+        padding-right: 5%;
+        padding-left: 8%;
+    }
+    .mar-bot-140 {
+        margin-bottom: 40px;
+    }
+    .mar-top-140 {
+        margin-top: 50px;
+    }
+    section.architect .archit-img {
+        margin-left: -10%;
+    }
+    section.blog-details .blog-details-wrapper {
+        padding-left: 50px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .sm-mint a .sub-arrow {
+        display: none;
+    }
+
+    #rev_slider_22_1_wrapper .persephone.tparrows {
+        top: 138% !important;
+    }
+    section.mextreo-service .m-s-content h2.ms-tittle {
+        left: -10%;
+    }
+} //End min 992px to max 1199px
+// Medium devices (tablets, less than 1199px)
+@media only screen and (min-width: 1199px) {
+    .sm-mint a.has-submenu {
+        padding-right: 34px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .sm-mint a,
+    .sm-mint a:hover,
+    .sm-mint a:focus,
+    .sm-mint a:active,
+    .sm-mint a.highlighted {
+        padding: 14px 12px;
+        font-size: 12px;
+    }
+
+    section.mextreo-about .m-about-content h2 {
+        padding-right: 0;
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    section.work-success .ws-content h3 {
+        padding-right: 4%;
+    }
+
+    section.testimonial .testimonial-slid3 {
+        margin-left: 18%;
+        width: 100%;
+    }
+    // section.mextreo-blog .single-blog .sb-content h3 {
+    //     font-size: 17px;
+    //     margin-bottom: 10px;
+    // }
+    section.partner {
+        padding: 70px 0px;
+    }
+    .single-partner {
+        width: 90px;
+    }
+    section.recent-project .recent-pro-top h2.rp-tittle {
+        left: 30%;
+    }
+    section.mextreo-blog .mex-blog-top h2.mb-tittle {
+        // left: 36%;
+    }
+    section.mextreo-hero.dark .hero-2-slider {
+        width: 100%;
+    }
+    section.work-success.dark .ws-content h3 {
+        padding-right: 0;
+    }
+    .mar-bot-140 {
+        margin-bottom: 40px;
+    }
+    .mar-top-140 {
+        margin-top: 40px;
+    }
+    section.product {
+        padding: 150px 0px 100px;
+    }
+    section.architect {
+        padding-top: 100px;
+    }
+    h2 {
+        font-size: 37px;
+        line-height: 46px;
+    }
+    section.blog-details .blog-sideber .catagory ul li a {
+        font-size: 14px;
+    }
+    section.blog-details .blog-sideber .catagory ul li {
+        padding: 15px 0px;
+    }
+    section.blog-details .blog-details-wrapper .blog-text h3 {
+        line-height: 40px;
+    }
+    section.blog-details
+        .blog-sideber
+        .recent-post
+        .single-recent-blog
+        .srb-text
+        h5 {
+        line-height: 20px;
+    }
+    .custom-padding {
+        padding-bottom: 280px !important;
+    }
+    .page-settings {
+        top: 200px;
+    }
+} // End Max 1199px
+
+@media only screen and (max-width: 1091px) {
+    section.mextreo-hero.inner .hero-content {
+        padding-right: 5%;
+        padding-left: 10%;
+    }
+    section.blog-details .blog-details-wrapper {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1043px) {
+    section.hero-3::before {
+        height: 118%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991.9px) {
+    .sm-mint a {
+        font-size: 10px;
+    }
+    .sm-mint a .sub-arrow {
+        display: none;
+    }
+    section.mextreo-blog .single-blog .sb-content h3 {
+        font-size: 13px;
+        line-height: 22px;
+    }
+
+    section.mextreo-blog .single-blog .sb-content p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    section.mextreo-blog .single-blog .sb-content {
+        padding: 10px;
+    }
+    section.blog-details .blog-sideber .recent-post .single-recent-blog {
+        display: block;
+    }
+    section.blog-details
+        .blog-sideber
+        .recent-post
+        .single-recent-blog
+        .srb-text {
+        padding-left: 0;
+        padding-top: 15px;
+    }
+    section.blog-details .blog-sideber .catagory ul li a {
+        font-size: 12px;
+    }
+    section.blog-details .blog-sideber .catagory ul li span {
+        font-size: 12px;
+        padding: 4px;
+    }
+
+    section.mextreo-hero.inner .contact-details {
+        left: 0%;
+    }
+} // End min 767px to max 991px
+
+// Medium devices (tablets, less than 992px)
+@media only screen and (max-width: 991px) {
+    #rev_slider_22_1_wrapper .persephone.tparrows {
+        display: none;
+    }
+
+    section.work-success .success-bg {
+        top: 2%;
+        right: -20%;
+        margin-left: 15px;
+    }
+    section.work-success .ws-content h3 {
+        padding-right: 0;
+        font-size: 27px;
+        line-height: 36px;
+    }
+    section.testimonial .testimonial-slid1 {
+        margin-left: -30%;
+        width: 115%;
+    }
+    section.testimonial .testimonial-slid2 p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    section.mextreo-about {
+        padding-top: 200px;
+    }
+    section.mextreo-about .m-about-content h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    section.mextreo-service {
+        padding-top: 180px;
+    }
+    section.work-success {
+        padding-top: 100px;
+    }
+    section.recent-project {
+        padding-top: 120px;
+    }
+    section.testimonial {
+        padding-top: 150px;
+    }
+    section.testimonial .client-quota {
+        font-size: 250px;
+    }
+    section.mextreo-blog {
+        padding-top: 120px;
+    }
+
+    .single-partner {
+        width: 50px;
+    }
+
+    section.mextreo-service .single-service h3 {
+        font-size: 16px;
+    }
+
+    section.footer-details .footer-information .single-info p {
+        font-size: 11px;
+    }
+
+    footer .footer-nav ul li a {
+        font-size: 12px;
+    }
+    footer .footer-nav ul li {
+        font-size: 12px;
+    }
+    section.mextreo-hero.dark .hero-2-content {
+        padding-left: 0;
+    }
+    .dark .btn-1 {
+        padding: 12px 22px;
+    }
+
+    section.testimonial.dark .testimonial-slid2 .owl-dots {
+        right: 15%;
+    }
+    section.mextreo-hero.inner .hero-content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    section.blog-details .blog-details-wrapper {
+        padding-left: 0px;
+    }
+    section.blog-details .blog-details-wrapper .take-comment .checkbox span {
+        font-size: 12px;
+    }
+    section.blog-details .blog-details-wrapper .blog-text .gift-info {
+        padding: 20px 28px;
+    }
+    section.commingsoon #clockdiv {
+        margin-left: -150px;
+    }
+    .custom-padding {
+        padding-bottom: 120px !important;
+    }
+    .page-settings {
+        top: 150px;
+    }
+} /*--Max-width :991px----------*/
+
+// Small devices (landscape phones, less than 868px)
+@media only screen and (max-width: 850px) {
+    .sm-mint a {
+        font-size: 10px;
+        padding: 14px 9px;
+    }
+    .hero-social {
+        left: 3%;
+    }
+    section.mextreo-hero.dark .hero-2-content {
+        padding-left: 15px;
+    }
+} /*===========Max-width : 867px---------------*/
+
+// Small devices (landscape phones, less than 768px)
+@media only screen and (max-width: 767px) {
+    header.mextreo-header-area.nav-fixed .logo-wrapper {
+        width: 90px;
+    }
+    .c-fulid-max {
+        max-width: 100%;
+    }
+    .slide-text img {
+        width: 30vw;
+    }
+    .sm-mint a {
+        color: rgb(0, 0, 0);
+        padding: 14px 10px;
+        font-size: 12px;
+    }
+    .sm-mint {
+        padding: 31px 20px;
+    }
+
+    #main-menu {
+        position: fixed;
+        max-height: 383px;
+        border-bottom: 0;
+        overflow-y: scroll;
+        width: 100%;
+        top: 65px;
+        border-radius: 15px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        left: 0;
+        box-shadow: 0 4px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    header.mextreo-header-area .mextreo-menu .side-ber {
+        display: none;
+    }
+    li.tel {
+        display: none;
+    }
+
+    section.mextreo-about {
+        padding-top: 150px;
+    }
+    section.mextreo-about .about-bg {
+        display: none;
+    }
+
+    .m-about-img {
+        margin-top: 80px;
+    }
+    section.mextreo-about .m-about-content h2.ab-tittle {
+        top: -9%;
+    }
+    section.mextreo-service .m-s-content h2.ms-tittle {
+        top: -10%;
+    }
+    section.mextreo-service .si-2 {
+        margin-top: 15px !important;
+    }
+    section.work-success .ws-content {
+        text-align: center;
+    }
+    section.work-success .ws-content .ws-t-year img {
+        left: 0;
+    }
+    section.work-success .success-bg {
+        display: none;
+    }
+    section.recent-project .recent-pro-top h2.rp-tittle {
+        left: 20%;
+    }
+
+    section.testimonial .testimonial-slid1 {
+        margin-left: 0;
+        width: 100%;
+    }
+    section.testimonial .client-quota {
+        font-size: 175px;
+        top: 37%;
+    }
+    section.testimonial .testimonial-slid3 {
+        margin-left: 0;
+    }
+    section.testimonial .owl-dots {
+        right: 12%;
+    }
+    section.testimonial .testimonial-slid2 .owl-nav {
+        right: 0%;
+    }
+    section.mextreo-blog .mex-blog-top h2.mb-tittle {
+        // left: 26%;
+    }
+    section.partner .single-partner {
+        margin-left: 30px;
+    }
+    section.footer-details .footer-information .single-info {
+        margin-left: 30px;
+    }
+    .footer-logo {
+        text-align: center;
+    }
+    .footer-logo img {
+        max-width: unset;
+        width: auto;
+    }
+    footer .footer-nav {
+        text-align: center;
+    }
+    .scroll-top.open {
+        bottom: 80px;
+    }
+
+    .scroll-top {
+        width: 40px;
+        height: 40px;
+        line-height: 39px;
+        font-size: 13px;
+    }
+    .btn-1 {
+        font-size: 14px;
+        padding: 12px 30px;
+    }
+    section.mextreo-hero.dark .hero-2-content {
+        padding-left: 0px;
+    }
+
+    section.mextreo-hero.dark .hero-2-slider {
+        width: 100%;
+        margin-top: 70px;
+    }
+    section.mextreo-hero.inner .hero-inner-img img.hero-inner-2 {
+        display: none;
+    }
+
+    section.mextreo-hero.inner .hero-content {
+        padding-right: 0;
+        margin-top: 20px;
+        padding-left: 0;
+        margin-bottom: 50px;
+    }
+    section.mextreo-hero.inner .hero-inner-img {
+        margin-left: 0;
+    }
+    section.mextreo-about.pt-res-50 {
+        padding-top: 50px;
+    }
+    section.architect {
+        padding-top: 60px;
+    }
+    section.architect .archit-img {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+    section.interior {
+        padding-top: 100px;
+    }
+    section.interior .interior-img {
+        margin-left: 0;
+        margin-top: 60px;
+    }
+    section.mextreo-about.product {
+        padding-top: 100px;
+    }
+    section.product .mb-pro {
+        margin-top: 15%;
+    }
+    section.blog-details {
+        margin-top: 100px;
+    }
+    section.blog-details
+        .blog-details-wrapper
+        .comment-details
+        .single-comment
+        .sc-text
+        p {
+        padding: 28px 0% 30px 0px;
+    }
+    section.mextreo-hero.inner .contact-details {
+        height: auto;
+        padding: 50px;
+        position: relative;
+        padding-left: 50px;
+        top: 60px;
+        width: 100%;
+        left: 0;
+        margin-bottom: 50px;
+    }
+    section.mextreo-hero.inner .hero-content .mextreo-contact .m-submit {
+        padding: 12px 30px;
+    }
+    section.blog-details .blog-details-wrapper .take-comment button {
+        padding: 12px 30px;
+    }
+    section.blog-details .blog-sideber {
+        margin-top: 50px;
+    }
+    section.commingsoon .com-logo {
+        max-width: 55%;
+        margin: 0px auto 50px;
+    }
+    section.commingsoon #clockdiv {
+        margin-left: 0;
+    }
+    section.commingsoon #clockdiv .time {
+        width: 100px;
+    }
+    section.commingsoon #clockdiv .time span {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    section.commingsoon #clockdiv .time .smalltext {
+        font-size: 14px;
+    }
+    section.commingsoon #clockdiv .dot {
+        font-size: 40px;
+        padding: 82px 10px;
+    }
+    .custom-padding {
+        padding-bottom: 20px !important;
+    }
+} // ENd max 767px
+
+// Extra small devices (portrait phones, less than 615px)
+@media only screen and (max-width: 615px) {
+    section.mextreo-service .m-s-content h2.ms-tittle {
+        left: 0;
+    }
+    section.mextreo-about .m-about-content h2.ab-tittle {
+        left: 0;
+    }
+    .hero-social {
+        display: none;
+    }
+}
+
+// Extra small devices (portrait phones, less than 576px)
+@media only screen and (max-width: 575px) {
+    section.mextreo-about .m-about-content h2.ab-tittle {
+        font-size: 65px;
+    }
+    .ht-tittle::before {
+        left: unset;
+        right: -65px;
+    }
+    section.mextreo-service .m-s-content h2.ms-tittle {
+        top: -11%;
+        font-size: 65px;
+    }
+
+    section.recent-project .recent-pro-top .ht-tittle::before {
+        left: -70px;
+    }
+    section.mextreo-about {
+        padding-top: 100px;
+    }
+    section.mextreo-service {
+        padding-top: 120px;
+    }
+    section.work-success {
+        padding-top: 80px;
+    }
+    section.mextreo-blog .mex-blog-top .ht-tittle::before {
+        // left: -70px;
+    }
+    section.mextreo-blog .mex-blog-top h2.mb-tittle {
+        font-size: 70px;
+        // left: 30%;
+    }
+    header.mextreo-header-area .logo-wrapper {
+        padding-top: 0px;
+    }
+    footer {
+        padding-bottom: 30px;
+    }
+    section.mextreo-hero.dark .hero-2-content {
+        margin-top: 36px;
+    }
+    section.faq .card .card-header .accordion-toggle.collapsed {
+        font-size: 16px;
+    }
+
+    rs-layer#slider-22-slide-33-layer-3 {
+        font-size: 10px !important;
+        width: 300px !important;
+        line-height: 15px !important;
+        min-width: unset;
+    }
+    a#slider-22-slide-33-layer-4 {
+        margin-top: 15px !important;
+        font-size: 10px !important;
+        padding: 10px !important;
+    }
+    rs-layer#slider-22-slide-34-layer-2 {
+        font-size: 10px !important;
+        width: 300px !important;
+        line-height: 15px !important;
+        min-width: unset;
+    }
+    a#slider-22-slide-34-layer-4 {
+        margin-top: 15px !important;
+        font-size: 10px !important;
+        padding: 10px !important;
+    }
+    rs-layer#slider-22-slide-35-layer-2 {
+        font-size: 10px !important;
+        width: 300px !important;
+        line-height: 15px !important;
+        min-width: unset;
+    }
+    a#slider-22-slide-35-layer-4 {
+        margin-top: 15px !important;
+        font-size: 10px !important;
+        padding: 10px !important;
+    }
+    rs-layer#slider-22-slide-36-layer-3 {
+        font-size: 10px !important;
+        width: 300px !important;
+        line-height: 15px !important;
+        min-width: unset;
+    }
+    a#slider-22-slide-36-layer-4 {
+        margin-top: 15px !important;
+        font-size: 10px !important;
+        padding: 10px !important;
+    }
+    rs-layer#slider-22-slide-37-layer-3 {
+        font-size: 10px !important;
+        width: 300px !important;
+        line-height: 15px !important;
+        min-width: unset;
+    }
+    a#slider-22-slide-37-layer-4 {
+        margin-top: 15px !important;
+        font-size: 10px !important;
+        padding: 10px !important;
+    }
+
+    // section.mextreo-hero .hero-slide {
+    //     height: 250px !important;
+    // }
+    rs-module#rev_slider_22_1 {
+        height: 250px !important;
+    }
+    rs-layer#slider-22-slide-33-layer-0 {
+        height: 250px !important;
+    }
+    rs-module-wrap#rev_slider_22_1_wrapper {
+        height: 250px !important;
+    }
+    rs-layer#slider-22-slide-36-layer-0 {
+        height: 250px !important;
+    }
+    rs-layer#slider-22-slide-37-layer-0 {
+        height: 250px !important;
+    }
+
+    a#slider-22-slide-33-layer-9 {
+        font-size: 16px !important;
+        margin-top: 15px !important;
+    }
+    a#slider-22-slide-33-layer-10 {
+        font-size: 16px !important;
+    }
+    a#slider-22-slide-33-layer-11 {
+        font-size: 16px !important;
+        margin-top: 45px !important;
+    }
+    a#slider-22-slide-33-layer-12 {
+        font-size: 16px !important;
+        margin-top: 30px !important;
+    }
+    a#slider-22-slide-36-layer-9 {
+        font-size: 16px !important;
+        margin-top: 15px !important;
+    }
+    a#slider-22-slide-36-layer-10 {
+        font-size: 16px !important;
+    }
+    a#slider-22-slide-36-layer-11 {
+        font-size: 16px !important;
+        margin-top: 45px !important;
+    }
+    a#slider-22-slide-36-layer-12 {
+        font-size: 16px !important;
+        margin-top: 30px !important;
+    }
+    a#slider-22-slide-37-layer-9 {
+        font-size: 16px !important;
+        margin-top: 15px !important;
+    }
+    a#slider-22-slide-37-layer-10 {
+        font-size: 16px !important;
+    }
+    a#slider-22-slide-37-layer-11 {
+        font-size: 16px !important;
+        margin-top: 45px !important;
+    }
+    a#slider-22-slide-37-layer-12 {
+        font-size: 16px !important;
+        margin-top: 30px !important;
+    }
+    rs-layer-wrap.rs-parallax-wrap.rs-forcehidden {
+        top: 20px !important;
+    }
+    .page-settings {
+        top: 100px;
+    }
+    .page-settings {
+        padding: 12px 15px;
+    }
+    .page-settings {
+        left: -120px;
+    }
+    .pgs-box a {
+        font-size: 10px;
+        padding: 10px 7px;
+    }
+} // End max 575px
+// Extra small devices (portrait phones, less than 512px)
+@media only screen and (max-width: 512px) {
+    section.recent-project .recent-pro-top h2.rp-tittle {
+        font-size: 70px;
+    }
+    section.footer-details .footer-information .single-info {
+        margin-left: 20px;
+    }
+    header.mextreo-header-area .logo-wrapper img {
+        width: 40%;
+    }
+    section.partner .single-partner {
+        margin-left: 25px;
+    }
+    header.mextreo-header-area {
+        padding: 14px 0px;
+    }
+    section.footer-details .footer-information .single-info p {
+        font-size: 10px;
+    }
+    section.commingsoon #clockdiv .time {
+        width: 80px;
+    }
+    section.commingsoon #clockdiv .time span {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    section.commingsoon #clockdiv .time .smalltext {
+        font-size: 12px;
+    }
+} //End max 512px
+
+// Extra small devices (portrait phones, less than 482px)
+@media only screen and (max-width: 482px) {
+    section.partner .single-partner {
+        display: flex;
+        margin: 20px auto;
+    }
+    section.partner .single-partner:first-child {
+        margin-left: inherit;
+        margin: 30px auto;
+    }
+    .single-partner {
+        width: 80px;
+    }
+    section.partner .single-partner img {
+        max-width: unset;
+    }
+    .single-partner {
+        width: 150px;
+    }
+    section.footer-details .footer-information {
+        display: inline-block;
+    }
+    section.footer-details .footer-information .single-info h5 {
+        margin-bottom: 5px;
+    }
+    section.footer-details .footer-information .single-info {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    section.footer-details .subscribe form .form-control {
+        padding: 25px;
+    }
+    section.footer-details .subscribe form .sub-btn {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    div#preloader {
+        background-size: contain;
+    }
+    section.footer-details .footer-information {
+        padding-bottom: 50px;
+    }
+    section.mextreo-hero.inner {
+        padding-top: 60px;
+    }
+    section.blog-details .blog-details-wrapper .take-comment .checkbox span {
+        font-size: 11px;
+    }
+    section.blog-details .blog-details-wrapper .blog-text h3 {
+        line-height: 38px;
+        font-size: 26px;
+    }
+    h5 {
+        font-size: 15px;
+        line-height: 23px;
+    }
+    section.error {
+        margin-top: 120px;
+    }
+
+    // section.mextreo-hero .hero-slide {
+    //     height: 230px !important;
+    // }
+    rs-module#rev_slider_22_1 {
+        height: 230px !important;
+    }
+    rs-layer#slider-22-slide-33-layer-0 {
+        height: 230px !important;
+    }
+    rs-module-wrap#rev_slider_22_1_wrapper {
+        height: 230px !important;
+    }
+    rs-layer#slider-22-slide-36-layer-0 {
+        height: 230px !important;
+    }
+    rs-layer#slider-22-slide-37-layer-0 {
+        height: 230px !important;
+    }
+}
+
+// End max 482px
+
+// Extra small devices (portrait phones, less than 434px)
+@media only screen and (max-width: 434px) {
+    section.mextreo-blog .mex-blog-top h2.mb-tittle {
+        // left: 25%;
+    }
+    section.work-success.dark .ws-content .ws-text .knockout {
+        font-size: 230px;
+        line-height: 230px;
+    }
+    section.work-success.dark .ws-content h3 {
+        font-size: 30px;
+        line-height: 43px;
+    }
+    section.mextreo-hero.dark .hero-2-content {
+        margin-top: 20px;
+    }
+    section.blog-details .blog-details-wrapper .blog-meta ul.meta-list li a {
+        color: #878787;
+        padding-left: 5px;
+        font-size: 12px;
+    }
+    section.blog-details .blog-details-wrapper .blog-meta ul.meta-list li {
+        margin-right: 10px;
+    }
+    .form-check-inline .form-check-input {
+        margin-top: -24px;
+    }
+    section.commingsoon #clockdiv .time {
+        width: 70px;
+    }
+    section.commingsoon #clockdiv .time span {
+        font-size: 30px;
+        line-height: 40px;
+    }
+} // End max 434px
+
+// Extra small devices (portrait phones, less than 402px)
+@media only screen and (max-width: 402px) {
+    h2 {
+        font-size: 35px;
+    }
+
+    footer .footer-nav ul li a {
+        font-size: 10px;
+    }
+    footer .footer-nav ul li {
+        font-size: 10px;
+        padding: 0px 0px;
+    }
+    footer .footer-nav ul li a {
+        font-size: 10px;
+    }
+    footer {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    section.mextreo-about .m-about-content h2.ab-tittle {
+        font-size: 55px;
+        top: -4%;
+    }
+    section.mextreo-service .m-s-content h2.ms-tittle {
+        top: -6%;
+        font-size: 55px;
+    }
+    section.recent-project .recent-pro-top h2.rp-tittle {
+        font-size: 55px;
+    }
+    section.mextreo-blog .mex-blog-top h2.mb-tittle {
+        font-size: 55px;
+    }
+    section.commingsoon #clockdiv .time {
+        width: 60px;
+    }
+    // section.mextreo-hero .hero-slide {
+    //     height: 200px !important;
+    // }
+    rs-module#rev_slider_22_1 {
+        height: 200px !important;
+    }
+    rs-layer#slider-22-slide-33-layer-0 {
+        height: 200px !important;
+    }
+    rs-module-wrap#rev_slider_22_1_wrapper {
+        height: 200px !important;
+    }
+    rs-layer#slider-22-slide-36-layer-0 {
+        height: 200px !important;
+    }
+    rs-layer#slider-22-slide-37-layer-0 {
+        height: 200px !important;
+    }
+
+    a#slider-22-slide-37-layer-9 {
+        font-size: 13px !important;
+        margin-top: 15px !important;
+    }
+    a#slider-22-slide-37-layer-10 {
+        font-size: 13px !important;
+    }
+    a#slider-22-slide-37-layer-11 {
+        font-size: 13px !important;
+        margin-top: 45px !important;
+    }
+    a#slider-22-slide-37-layer-12 {
+        font-size: 13px !important;
+        margin-top: 30px !important;
+    }
+} // End max 402px
+
+// Extra small devices (portrait phones, less than 388px)
+@media only screen and (max-width: 388px) {
+    section.footer-details .subscribe form .sub-btn {
+        font-size: 12px;
+    }
+    section.footer-details .subscribe form .sub-btn {
+        font-size: 12px;
+    }
+    section.partner {
+        padding: 50px 0px;
+    }
+
+    section.testimonial {
+        padding-top: 100px;
+    }
+
+    section.work-success .ws-content .ws-t-year h2 {
+        font-size: 200px;
+        line-height: 210px;
+    }
+    section.work-success.dark .ws-content h3 {
+        font-size: 26px;
+        line-height: 37px;
+    }
+} // End max 388px
+
+// Extra small devices (portrait phones, less than 375px)
+@media only screen and (max-width: 375px) {
+    h2 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+    section.blog-details .blog-details-wrapper .blog-text h3 {
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    rs-layer#slider-22-slide-33-layer-3 {
+        font-size: 8px !important;
+        width: 220px !important;
+        line-height: 15px !important;
+        min-width: unset;
+    }
+    a#slider-22-slide-33-layer-4 {
+        margin-top: 15px !important;
+        font-size: 8px !important;
+        padding: 10px !important;
+    }
+    rs-layer#slider-22-slide-34-layer-2 {
+        font-size: 8px !important;
+        width: 220px !important;
+        line-height: 15px !important;
+        min-width: unset;
+    }
+    a#slider-22-slide-34-layer-4 {
+        margin-top: 15px !important;
+        font-size: 8px !important;
+        padding: 10px !important;
+    }
+    rs-layer#slider-22-slide-35-layer-2 {
+        font-size: 8px !important;
+        width: 220px !important;
+        line-height: 15px !important;
+        min-width: unset;
+    }
+    a#slider-22-slide-35-layer-4 {
+        margin-top: 15px !important;
+        font-size: 8px !important;
+        padding: 10px !important;
+    }
+    rs-layer#slider-22-slide-36-layer-3 {
+        font-size: 8px !important;
+        width: 220px !important;
+        line-height: 15px !important;
+        min-width: unset;
+    }
+    a#slider-22-slide-36-layer-4 {
+        margin-top: 15px !important;
+        font-size: 8px !important;
+        padding: 10px !important;
+    }
+    rs-layer#slider-22-slide-37-layer-3 {
+        font-size: 8px !important;
+        width: 220px !important;
+        line-height: 15px !important;
+        min-width: unset;
+    }
+    a#slider-22-slide-37-layer-4 {
+        margin-top: 15px !important;
+        font-size: 8px !important;
+        padding: 10px !important;
+    }
+
+    // section.mextreo-hero .hero-slide {
+    //     height: 180px !important;
+    // }
+    rs-module#rev_slider_22_1 {
+        height: 180px !important;
+    }
+    rs-layer#slider-22-slide-33-layer-0 {
+        height: 180px !important;
+    }
+    rs-module-wrap#rev_slider_22_1_wrapper {
+        height: 180px !important;
+    }
+    rs-layer#slider-22-slide-36-layer-0 {
+        height: 180px !important;
+    }
+    rs-layer#slider-22-slide-37-layer-0 {
+        height: 180px !important;
+    }
+} // End max 375px
+
+// Extra small devices (portrait phones, less than 359px)
+@media only screen and (max-width: 359px) {
+    section.commingsoon #clockdiv .time {
+        width: 50px;
+    }
+    section.commingsoon #clockdiv .time span {
+        font-size: 26px;
+        line-height: 37px;
+    }
+    section.commingsoon #clockdiv .dot {
+        font-size: 23px;
+        padding: 77px 8px;
+    }
+    h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}

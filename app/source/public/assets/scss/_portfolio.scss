@@ -1,0 +1,100 @@
+/*--------------- Partner Section Style-------------------*/
+
+section.partner {
+    position: relative;
+    padding: 130px 0px;
+
+    .single-partner {
+        position: relative;
+        display: inline-block;
+        margin-left: 70px;
+        cursor: pointer;
+        &:first-child{
+            margin-left: 0;
+        }
+
+        &:hover{
+            img{
+                filter: opacity(1);
+            }
+        }
+
+        img{
+            width: auto;
+            filter: opacity(0.5);
+            transition: .5s ease;
+        }
+    }
+    
+}
+
+
+/*---------------End  Partner Section Style-------------------*/
+
+/*===================project gallery===========================*/
+section.project-gallery {
+    position: relative;
+    margin-top: 160px;
+
+    .portfolio-img {
+        position: relative;
+        overflow: hidden;
+        margin: 15px auto;
+
+
+        &:hover{
+
+            &::before{
+               opacity: 0.702;
+            }
+            .sp-text {
+                bottom: 8%;
+            }
+            .rp-icon {
+                opacity: 1;
+            }
+        }
+        &::before{
+            position: absolute;
+            content: '';
+            background-color: #171616;
+            opacity: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            left: 0;
+            transition: all .6s ease;
+            z-index: 1;
+        }
+
+        .sp-text {
+            position: absolute;
+            bottom: -20%;
+            text-align: left;
+            left: 10%;
+            transition: .6s ease;
+            z-index: 1;
+            h3{
+                color: #fff;
+            }
+            p{
+                color: #fff;
+            }
+        }
+        
+        .rp-icon {
+            position: absolute;
+            bottom: 45%;
+            font-size: 35px;
+            opacity: 0;
+            left: 45%;
+            color: #fff;
+            transition: .6s ease;
+            z-index: 1;
+        }
+    }
+}
+
+
+
+/*===================End project gallery===========================*/

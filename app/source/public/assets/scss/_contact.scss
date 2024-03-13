@@ -1,0 +1,36 @@
+/*====================Contact Page===================*/
+
+section.g-map {
+    position: relative;
+    .map {
+        position: relative;
+        width: 100%;
+        height: 500px;
+        margin-top: 10px;
+
+        div#googleMap {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.contact-details {
+    position: relative;
+    img {
+        position: absolute;
+        width: 130px;
+        right: 25px;
+        opacity: 0.1;
+    }
+}
+.single-info {
+    a {
+        color: #8e8d8e;
+        &:hover {
+            color: #dcbc95;
+        }
+    }
+}
+
+/*====================/Contact Page===================*/

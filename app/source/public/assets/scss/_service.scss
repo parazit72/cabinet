@@ -1,0 +1,94 @@
+/*=================Service Section Style======================*/
+
+section.mextreo-service {
+    position: relative;
+    padding-top: 210px;
+    z-index: 1;
+    overflow: hidden;
+
+    .m-s-content {
+        position: relative;
+
+        h2.ms-tittle {
+            text-transform: uppercase;
+            position: absolute;
+            font-family: "Montserrat";
+            font-weight: 800;
+            font-size: 193px;
+            top: -7%;
+            left: -60%;
+            color: #f8f8f8;
+            z-index: -1;
+        }
+        p {
+            padding: 30px 0px;
+        }
+    }
+
+    .single-service {
+        position: relative;
+        width: 100%;
+        padding: 20px 0px;
+        margin: 15px auto;
+        text-align: center;
+        box-shadow: 0.707px 0.707px 5.52px 0.48px rgba(232, 235, 234, 0.68);
+        transition: 0.5s ease;
+
+        &:hover {
+            box-shadow: 1.91px 10.833px 67.16px 5.84px rgba(232, 235, 234, 0.71);
+            -webkit-transform: translateY(-12px);
+            transform: translateY(-12px);
+        }
+
+        .service-icon {
+            font-size: 90px;
+            color: $tertiaryColor;
+            padding-top: 38px;
+            display: inline-block;
+        }
+        img {
+            padding-top: 38px;
+            width: 90px;
+        }
+        h4 {
+            padding-top: 20px;
+        }
+    }
+    .si-1 {
+        display: inline-block;
+        margin-top: 80px !important;
+    }
+    .si-2 {
+        display: inline-block;
+        margin-top: 0px !important;
+    }
+    .si-3 {
+        display: inline-block;
+        margin-top: -70px !important;
+    }
+}
+
+section.mextreo-service.dark {
+    position: relative;
+
+    .m-s-content {
+        position: relative;
+
+        h2.ms-tittle {
+            color: #2c2b2b;
+        }
+    }
+
+    .single-service {
+        background: #302f2f;
+        box-shadow: none;
+
+        &:hover {
+            box-shadow: 1.91px 10.833px 67.16px 5.84px rgba(96, 99, 98, 0.71);
+        }
+        h3 {
+            color: #fff;
+        }
+    }
+}
+/*=================Service Section Style======================*/

@@ -1,0 +1,133 @@
+/*=============Footer Details Style==================*/
+section.footer-details {
+    position: relative;
+    background: #f8f8f8;
+    text-align: center;
+
+    .subscribe {
+        position: relative;
+        max-width: 700px;
+        margin: auto;
+        z-index: 1;
+        padding-top: 100px;
+        padding-bottom: 80px;
+
+        form {
+            position: relative;
+            display: flex;
+
+            .form-control {
+                width: 70%;
+                padding: 30px 25px;
+                font-size: 14px;
+                border-color: #c8c8c8;
+                border-radius: 0;
+                margin: auto;
+                font-family: "Gotham Narrow";
+            }
+            .sub-btn {
+                padding: 15px 10px;
+                width: 25%;
+                font-size: 16px;
+                background: #212020;
+                font-family: sans-serif;
+                border: 0;
+                border-radius: 0;
+                transition: 0.5s ease;
+
+                &:hover {
+                    background: $hoverColor;
+                }
+            }
+        }
+    }
+
+    .footer-information {
+        position: relative;
+        display: flex;
+        max-width: 800px;
+        margin: auto;
+        padding-bottom: 80px;
+        justify-content: space-between;
+        .single-info {
+            position: relative;
+            max-width: 230px;
+            // margin-left: 130px;
+            &:first-child {
+                margin-left: 0;
+            }
+
+            h5 {
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+}
+.footer-logo {
+    img {
+        width: 68px;
+    }
+}
+
+section.footer-details.dark2 {
+    background: #302f2f;
+
+    .subscribe form {
+        .sub-btn {
+            background: #ffffff;
+            color: #000;
+            transition: 0.5s ease;
+
+            &:hover {
+                background: $hoverColor;
+            }
+        }
+    }
+
+    .footer-information {
+        .single-info {
+            h5 {
+                color: #ffffff;
+            }
+        }
+    }
+}
+/*=============End Footer Details Style==================*/
+
+/*================Foooter Style======================*/
+
+footer {
+    position: relative;
+    background: #f8f8f8;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-top: 1px solid #c8c8c8;
+
+    .footer-nav {
+        position: relative;
+        text-align: right;
+
+        ul {
+            li {
+                font-family: "Gotham Narrow";
+                font-size: 15px;
+                font-weight: 400;
+                color: #8e8d8e;
+                padding: 0px 4px;
+
+                a {
+                    color: #8e8d8e;
+                    transition: all 0.5s ease-in;
+                    &:hover {
+                        color: #dcbc95;
+                    }
+                }
+            }
+        }
+    }
+}
+footer.dark2 {
+    background: #302f2f;
+}
+/*================End Foooter Style======================*/

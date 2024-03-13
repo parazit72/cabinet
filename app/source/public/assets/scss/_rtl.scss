@@ -1,0 +1,474 @@
+/*----------------------------------------*/
+/*  Maxtreo RTL Style
+/*----------------------------------------*/
+
+html[dir="rtl"] {
+
+    rs-layer-wrap, rs-mask-wrap, rs-cbg-mask-wrap {
+        transform-style: flat;
+        perspective: 10000px;
+        direction: ltr;
+    }
+    
+    rs-sbg-px, rs-sbg-wrap {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
+        direction: ltr;
+    }
+    header.mextreo-header-area .logo-wrapper {
+        text-align: right;
+    }
+    .side-panel {
+        text-align: right;
+    }
+    section.mextreo-about .about-bg {
+        left: 0;
+        right: -40%;
+    }
+    section.mextreo-about .m-about-content {
+        text-align: right;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    section.mextreo-about .m-about-content h2 {
+        padding-right: 0;
+    }
+    section.mextreo-about .m-about-content h2.ab-tittle {
+        left: -55%;
+    }
+    section.mextreo-service .m-s-content {
+        text-align: right;
+    }
+    section.mextreo-service .m-s-content h2.ms-tittle {
+        left: -50px;
+    }
+    section.work-success .success-bg {
+        right: 30%;
+        left: -30%;
+    }
+    section.work-success .ws-content {
+        text-align: right;
+    }
+    section.work-success .ws-content h3 {
+        padding-right: 0;
+        padding-left: 25%;
+    }
+    section.recent-project {
+        direction: ltr;
+    }
+    section.recent-project .recent-pro-top h2.rp-tittle {
+        left: 36%;
+    }
+
+    section.recent-project .project .single-project .sp-text {
+        text-align: right;
+        left: 0;
+        right: 15%;
+    }
+    section.testimonial {
+        direction: ltr;
+    }
+    section.testimonial .testimonial-slid2 {
+        text-align: right;
+    }
+    
+
+    section.mextreo-blog .mex-blog-top h2.mb-tittle {
+        left: 30%;
+    }
+    section.mextreo-blog .single-blog:hover .sb-content {
+        margin-left: 0;
+        margin-right: 5%;
+    }
+    section.mextreo-blog .single-blog .sb-content {
+        text-align: right;
+    }
+    section.footer-details .footer-information .single-info {
+        margin-left: 0;
+        margin-right: 80px;
+    }
+    footer .footer-nav {
+        text-align: left;
+    }
+    .sp-single-rp .ssrp-text span.date-meta i {
+        margin-right: 0;
+        margin-left: 5px;
+    }
+    section.mextreo-hero.dark .hero-2-content {
+        margin-top: 80px;
+        text-align: right;
+    }
+    .hero-social {
+        left: unset;
+        right: 5%;
+    }
+    section.mextreo-hero {
+        overflow: hidden;
+    }
+ 
+  
+    li.tel {
+        position: absolute;
+        right: unset;
+        left: -220px;
+    }
+    header.mextreo-header-area .mextreo-menu .side-ber {
+        right: unset;
+        left: 0;
+        top: 7px;
+    }
+    .side-panel {
+        left: 0;
+        right: unset;
+        box-shadow: -14px 2px 8px 10px black;
+    }
+    .side-panel.hide {
+        right: unset;
+        left: -440px;
+    }
+   #main-menu {
+        float: right;
+    }
+    section.error {
+        direction: ltr;
+    }
+    section.error .error-page {
+        direction: rtl;
+    }
+    section.mextreo-hero.inner .hero-content {
+        padding-right: 0;
+        padding-left: 13%;
+        text-align: right;
+    }
+    section.mextreo-hero.inner .hero-inner-img {
+        position: relative;
+        margin-left: unset;
+        width: 145%;
+        margin-right: 8%;
+    }
+    section.mextreo-hero.inner .hero-inner-img img.hero-inner-2 {
+        left: unset;
+        top: 44%;
+        right: -8%;
+    }
+    section.blog-details .blog-details-wrapper {
+        text-align: right;
+    }
+    section.blog-details .blog-details-wrapper .comment-details .single-comment .sc-text {
+      
+        margin-left: 0;
+        margin-right: 20px;
+    }
+    section.blog-details .blog-sideber .recent-post .single-recent-blog .srb-text {
+        padding-left: 0;
+    }
+    section.blog-details .blog-sideber .catagory ul li span {
+  
+        float: left;
+    }
+    section.blog-details .blog-sideber {
+        text-align: right;
+    }
+    section.commingsoon {
+        direction: ltr;
+    }
+    section.commingsoon .comming-content {
+        direction: rtl;
+    }
+    section.commingsoon #clockdiv {
+        direction: rtl;
+    }
+    section.commingsoon .subscribe {
+        direction: rtl;
+    }
+    section.mextreo-hero.inner .contact-details {
+        left: 15%;
+        text-align: right;
+    }
+    section.faq .card .card-block {
+        text-align: right;
+    }
+    section.custom-faq .another-faq {
+        text-align: right;
+    }
+    section.project-gallery .portfolio-img .sp-text {
+        text-align: right;
+        left: 0;
+        right: 10%;
+        width: 100%;
+    }
+    section.mextreo-hero.inner .hero-content ul li {
+        padding-left: 0;
+        margin-right: 20px;
+    }
+
+    section.mextreo-hero.inner .hero-content ul li::before {
+        right: -20px;
+    }
+    section.architect .archit-img {
+        margin-left: unset;
+        margin-right: -35%;
+    }
+    section.architect .ab-arch-content {
+        text-align: right;
+    }
+    section.interior .interior-img {
+        margin-left: unset;
+        width: 113%;
+        margin-right: 10%;
+    }
+
+
+    section.recent-project .recent-pro-top .ht-tittle::after {
+  
+        right: -135%;
+    }
+
+    section.mextreo-blog .mex-blog-top .ht-tittle::after {
+  
+        right: -105%;
+    }
+    section.interior .ab-interior-content {
+        text-align: right;
+    }
+
+    section.blog-details .blog-details-wrapper .comment-details .single-comment .sc-text p {
+        padding: 28px 0 30px 0px;
+    }
+    section.blog-details .blog-sideber .tag ul {
+        text-align: right;
+    }
+    section.blog-details .blog-sideber .recent-post .single-recent-blog {
+    
+        text-align: right;
+    }
+
+
+
+
+}
+
+
+/*----------------------------------------*/
+/*  Maxtreo RTL Style END
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*  Maxtreo RTL Responsive Style
+/*----------------------------------------*/
+html[dir="rtl"] {
+
+
+    @media only screen and (max-width: 1715px){
+
+      section.mextreo-about .m-about-content h2.ab-tittle {
+            left: -18%;
+        }
+     section.mextreo-service .m-s-content h2.ms-tittle {
+            left: 20%;
+        }
+        section.recent-project .recent-pro-top h2.rp-tittle {
+            left: 41%;
+        }
+        section.mextreo-blog .mex-blog-top h2.mb-tittle {
+            left: 37%;
+        }
+    
+    }
+    
+    @media only screen and (max-width: 1500px){
+
+       section.mextreo-about .m-about-content h2.ab-tittle {
+            left: 10%;
+        }
+        section.mextreo-blog .mex-blog-top h2.mb-tittle {
+            left: 42%;
+        }
+        section.recent-project .recent-pro-top h2.rp-tittle {
+            left: 43%;
+        }
+        section.mextreo-service .m-s-content h2.ms-tittle {
+            left: 43%;
+        }
+    
+    
+    }
+
+    
+
+
+
+
+
+
+    @media only screen and (max-width: 1400px){
+
+        li.tel {
+            left: -190px;
+        }
+        section.mextreo-about .m-about-content h2.ab-tittle {
+            left: 23%;
+        }
+        section.mextreo-service .m-s-content h2.ms-tittle {
+            left: 50%;
+        }
+    
+    }
+    @media only screen and (max-width: 1300px){
+
+        li.tel {
+            left: -170px;
+        }
+        .hero-social {
+            left: unset;
+            right: 1%;
+        }
+    
+    }
+    
+@media only screen and (max-width: 1199px){
+
+    li.tel {
+        left: -180px;
+    }
+
+}
+    @media only screen and (max-width: 991px){
+
+        li.tel {
+            left: -120px;
+        }
+       section.mextreo-about .m-about-content h2.ab-tittle {
+            left: -10%;
+        }
+        section.mextreo-service .m-s-content h2.ms-tittle {
+            left: 20%;
+        }
+        section.recent-project .recent-pro-top h2.rp-tittle {
+            left: 38%;
+        }
+        section.mextreo-blog .mex-blog-top h2.mb-tittle {
+            left: 38%;
+        }
+        section.mextreo-about .m-about-content h2.ab-tittle {
+            left: 0;
+            right: 0;
+        }
+        .hero-social {
+            right: 2%;
+        }
+        section.blog-details .blog-sideber .recent-post .single-recent-blog .srb-text {
+         
+            padding-right: 0;
+        }
+
+}
+@media only screen and (max-width: 767px){
+
+    .main-menu-btn {
+        float: left;
+    }
+    section.work-success .ws-content .ws-t-year h2 {
+        text-align: center;
+    }
+    section.work-success .ws-content h3 {
+        padding-right: 0;
+        padding-left: 0;
+        text-align: center;
+    }
+    footer .footer-nav {
+        text-align: center;
+    }
+    header.mextreo-header-area .logo-wrapper {
+        padding-top: 0px;
+    }
+    section.footer-details .footer-information .single-info {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    section.mextreo-about .m-about-content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    section.mextreo-hero.inner .hero-inner-img {
+        position: relative;
+        margin-left: unset;
+        width: 100%;
+        margin-right: 0;
+    }
+    section.architect .archit-img {
+        margin-right: 0;
+    }
+    section.interior .interior-img {
+        margin-left: unset;
+        width: 100%;
+        margin-right: 0;
+    }
+    section.mextreo-hero.inner .hero-content {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    section.blog-details .blog-details-wrapper .blog-meta ul.meta-list li i {
+        margin-right: 0;
+        margin-left: 10px;
+    }
+    section.mextreo-hero.inner .contact-details {
+        left: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 575px){
+
+ 
+    section.mextreo-blog .mex-blog-top .ht-tittle::before {
+   
+        right: unset;
+    }
+    .ht-tittle::before {
+        left: -70px;
+        right: unset;
+    }
+
+}
+@media only screen and (max-width: 480px){
+
+    section.footer-details .footer-information .single-info p {
+       padding: 0;
+    }
+    section.mextreo-hero.dark .hero-2-content {
+        margin-top: 30px;
+    }
+    section.commingsoon .subscribe form .sub-btn {
+        padding: 0px 30px;
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+
+section.commingsoon #clockdiv {
+    margin-left: 25px;
+}
+
+}
+
+
+
+
+
+
+
+}
+
+
+
+/*----------------------------------------*/
+/*  Maxtreo RTL Responsive Style End
+/*----------------------------------------*/
