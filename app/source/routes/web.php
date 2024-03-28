@@ -23,7 +23,7 @@ Route::middleware(['throttle:newsletter'])->group(function () {
 });
 Route::get('/newsletter/unsubscribe/{token}', [SiteController::class, 'unsubscribe'])->name('newsletter.unsubscribe');
 Route::get('/newsletter/unsubscribe/confirm/{token}', [SiteController::class, 'unsubscribeConfirm'])->name('newsletter.unsubscribe.confirm');
-Route::get('/about-us', [SiteController::class, 'about'])->name('about');
+// Route::get('/about-us', [SiteController::class, 'about'])->name('about');
 Route::get('/construction', [SiteController::class, 'construction'])->name('construction');
 Route::get('/cabinetry', [SiteController::class, 'cabinetry'])->name('cabinetry');
 Route::get('/service', [SiteController::class, 'services'])->name('services');

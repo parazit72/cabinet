@@ -24,7 +24,7 @@ class DatabaseSeeder extends Seeder
             'user_id'   => '1',
             'name'      => 'admin',
             'type'      => 'admin',
-            'email'     => 'it.scalegtm@gmail.com',
+            'email'     => 'javadabbasi72@gmail.com',
             'password'  => bcrypt('Pass123!'),
             'remember_token' => 'enb',
         ]);
@@ -39,15 +39,7 @@ class DatabaseSeeder extends Seeder
             'remember_token' => 'enb',
         ]);
 
-        DB::table('users')->insert([
-            'id'        => '3',
-            'user_id'   => '1',
-            'name'      => 'Adel',
-            'type'      => 'admin',
-            'email'     => 'adel@snatchdigital.co.uk',
-            'password'  => bcrypt('Pass123!'),
-            'remember_token' => 'enb',
-        ]);
+
 
 
         DB::table('menus')->insert([
@@ -177,21 +169,21 @@ class DatabaseSeeder extends Seeder
 
         DB::table('page_settings')->insert([
             'id'        => '1',
-            'meta_title'        => 'Scale GTM - Home',
+            'meta_title'        => 'Unique Star Cabinetry - Home',
             'meta_description'        => 'home description',
             'meta_keywords'        => 'home',
         ]);
 
         DB::table('page_settings')->insert([
             'id'        => '2',
-            'meta_title'        => 'Scale GTM - Solutions',
+            'meta_title'        => 'Unique Star Cabinetry - Solutions',
             'meta_description'        => 'Solutions description',
             'meta_keywords'        => 'service',
         ]);
         DB::table('page_settings')->insert([
             'id'        => '3',
-            'meta_title'        => 'Scale GTM - Blog',
-            'meta_description'        => 'Scale GTM - Blog',
+            'meta_title'        => 'Unique Star Cabinetry - Blog',
+            'meta_description'        => 'Unique Star Cabinetry - Blog',
             'meta_keywords'        => 'blog',
         ]);
 
@@ -199,7 +191,7 @@ class DatabaseSeeder extends Seeder
             'id'        => '1',
             'title'        => 'What you can expect from us',
             'description'        => 'These guiding principles are a core part of every engagement',
-            'meta_title'        => 'Scale GTM - About',
+            'meta_title'        => 'Unique Star Cabinetry - About',
             'meta_description'        => 'What you can expect from us',
             'meta_keywords'        => 'about',
             'events' => json_encode(
@@ -225,17 +217,17 @@ class DatabaseSeeder extends Seeder
                 [
                     [
                         'title' => "Our story",
-                        'description' => "Prior to founding Scale GTM, John honed his craft with over 2 decades of hands-on experience leading transformational go-to-market initiatives. These initiatives resulted in successes ranging from the rapid growth of a high-tech company from $25M to $1B and opening a new multi-billion dollar mobile channel for the 5th largest bank in the world. Through all these experiences, John started to see a recurring pattern of pitfalls faced by go-to-market teams during these critical growth phases.",
+                        'description' => "Prior to founding Unique Star Cabinetry, John honed his craft with over 2 decades of hands-on experience leading transformational go-to-market initiatives. These initiatives resulted in successes ranging from the rapid growth of a high-tech company from $25M to $1B and opening a new multi-billion dollar mobile channel for the 5th largest bank in the world. Through all these experiences, John started to see a recurring pattern of pitfalls faced by go-to-market teams during these critical growth phases.",
                         'image' => "/static/2024/03/s1.jpg"
                     ],
                     [
                         'title' => "Proactive approach to success",
-                        'description' => "In 2020, Scale GTM was born from a simple yet powerful idea: Why wait for the pitfalls of growth to surface? John envisioned a proactive approach, leveraging pattern matching and industry best practices to anticipate these challenges before they arise.",
+                        'description' => "In 2020, Unique Star Cabinetry was born from a simple yet powerful idea: Why wait for the pitfalls of growth to surface? John envisioned a proactive approach, leveraging pattern matching and industry best practices to anticipate these challenges before they arise.",
                         'image' => "/static/2024/03/s2.jpg"
                     ],
                     [
                         'title' => "Best practices from the industry",
-                        'description' => "At Scale GTM, we don’t believe in reinventing the wheel. Instead, we capitalize on lessons learned and best practices as a strategic starting point that is then tailored to fit your organization's unique needs. Let's transcend the traditional growth journey - proactively plan for success with Scale GTM.",
+                        'description' => "At Unique Star Cabinetry, we don’t believe in reinventing the wheel. Instead, we capitalize on lessons learned and best practices as a strategic starting point that is then tailored to fit your organization's unique needs. Let's transcend the traditional growth journey - proactively plan for success with Unique Star Cabinetry.",
                         'image' => "/static/2024/03/s3.jpg"
                     ]
                 ]
@@ -269,12 +261,12 @@ class DatabaseSeeder extends Seeder
             'body'        => "<table>
             <tbody>
             <td>
-            <h4>What led you to work with Scale GTM?</h4>
+            <h4>What led you to work with Unique Star Cabinetry?</h4>
             The very thing that organizations have come to depend on, is also their greatest security vulnerability. It’s our mission to help CSOs understand why protecting SaaS applications needs to be at the top of their priority list. It shouldn’t surprise anyone, but CSOs are overwhelmed with securing their organizations due to the ever evolving landscape of cyberattacks. We needed a way to capture, and keep their attention.
             </td>
             <td>
             <h4>How did the engagement go?</h4>
-            Scale GTM not only drove the creation of this pivotal messaging, but they also trained and certified my entire sales organization. Emboldened with this message, our sellers have been able to not only effectively engage with CSOs, but they have also consistently secured budget in the toughest software sales environment we’ve faced in over a decade. Scale GTM was a foundational partner to our growth journey, and I have turned to them time and time again to deliver the marketing and sales initiatives to achieve our mission.
+            Unique Star Cabinetry not only drove the creation of this pivotal messaging, but they also trained and certified my entire sales organization. Emboldened with this message, our sellers have been able to not only effectively engage with CSOs, but they have also consistently secured budget in the toughest software sales environment we’ve faced in over a decade. Unique Star Cabinetry was a foundational partner to our growth journey, and I have turned to them time and time again to deliver the marketing and sales initiatives to achieve our mission.
             </td>
             </tr>
             </tbody>
@@ -293,12 +285,12 @@ class DatabaseSeeder extends Seeder
             'body'        => "<table>
             <tbody>
             <td>
-            <h4>What led you to work with Scale GTM?</h4>
-            Upon joining Responsive as their first CRO, I found Scale GTM to be an already trusted partner for the marketing teams. What became immediately apparent was their breadth of knowledge spanning across marketing and sales. They quickly established themselves as an invaluable advisor to me as I ramped on the business.
+            <h4>What led you to work with Unique Star Cabinetry?</h4>
+            Upon joining Responsive as their first CRO, I found Unique Star Cabinetry to be an already trusted partner for the marketing teams. What became immediately apparent was their breadth of knowledge spanning across marketing and sales. They quickly established themselves as an invaluable advisor to me as I ramped on the business.
             </td>
             <td>
             <h4>How did the engagement go?</h4>
-            Our collaboration kicked off with the roll out of MEDDPICC. This rollout was the fastest, most methodical, and well received I have ever witnessed. It encompassed leaders, CRM operationalization, and hands-on support for frontline managers and their teams! I even received unsolicited feedback from sales managers about the exceptional value John personally brought to their team interactions. Scale GTM has evolved into the strategic partner I consistently rely on, quarter after quarter, to empower our sales leaders and sellers with the essential messaging, skills, and tools crucial for accelerating our growth journey!
+            Our collaboration kicked off with the roll out of MEDDPICC. This rollout was the fastest, most methodical, and well received I have ever witnessed. It encompassed leaders, CRM operationalization, and hands-on support for frontline managers and their teams! I even received unsolicited feedback from sales managers about the exceptional value John personally brought to their team interactions. Unique Star Cabinetry has evolved into the strategic partner I consistently rely on, quarter after quarter, to empower our sales leaders and sellers with the essential messaging, skills, and tools crucial for accelerating our growth journey!
             </td>
             </tr>
             </tbody>
@@ -318,12 +310,12 @@ class DatabaseSeeder extends Seeder
             'body'        => "<table>
             <tbody>
             <td>
-            <h4>What led you to work with Scale GTM?</h4>
-            I have the privilege of steering an incredibly talented, but diverse set of leaders across sales, marketing, partnerships, and operations. After settling into the role, I came to realize that if we were going to achieve our mission, this collection of individual leaders needed to act as a single cohesive team. We needed to adopt the characteristics of high performing leadership teams, such as trust, candid debate, and unwavering commitment to our decisions. Just as importantly, time was of the essence because we have a unique opportunity to help shape the future of the auto repair industry. Scale GTM successfully partnered with me in my previous company to accelerate the adoption of these characteristics across the leadership team.
+            <h4>What led you to work with Unique Star Cabinetry?</h4>
+            I have the privilege of steering an incredibly talented, but diverse set of leaders across sales, marketing, partnerships, and operations. After settling into the role, I came to realize that if we were going to achieve our mission, this collection of individual leaders needed to act as a single cohesive team. We needed to adopt the characteristics of high performing leadership teams, such as trust, candid debate, and unwavering commitment to our decisions. Just as importantly, time was of the essence because we have a unique opportunity to help shape the future of the auto repair industry. Unique Star Cabinetry successfully partnered with me in my previous company to accelerate the adoption of these characteristics across the leadership team.
             </td>
             <td>
             <h4>How did the engagement go?</h4>
-            Using the same methodical approach, Scale GTM took the time to understand our business. Through 1:1 interviews with each leader, John personally crafted leadership portraits of every person’s background, strengths, and opportunities. This preparation culminated in a tailored in-person workshop masterfully facilitated by John. Coming out of the workshop, I have already started to observe how leaders are applying what they've learned. It was not easy to get my leadership team to step away from their day to day, but an absolute necessity for us if we are to reach the most ambitious goals in the company’s history in the upcoming year.
+            Using the same methodical approach, Unique Star Cabinetry took the time to understand our business. Through 1:1 interviews with each leader, John personally crafted leadership portraits of every person’s background, strengths, and opportunities. This preparation culminated in a tailored in-person workshop masterfully facilitated by John. Coming out of the workshop, I have already started to observe how leaders are applying what they've learned. It was not easy to get my leadership team to step away from their day to day, but an absolute necessity for us if we are to reach the most ambitious goals in the company’s history in the upcoming year.
             </td>
             </tr>
             </tbody>
@@ -344,12 +336,12 @@ class DatabaseSeeder extends Seeder
             'body'        => "<table>
             <tbody>
             <td>
-            <h4>What led you to work with Scale GTM?</h4>
+            <h4>What led you to work with Unique Star Cabinetry?</h4>
             As my responsibility expanded from EMEA to include all revenue teams globally, I was faced with the challenge of growing the business across every region and segment. I identiﬁed investment in our sales leaders as a critical lever to drive performance around the world.
             </td>
             <td>
             <h4>How did the engagement go?</h4>
-            Scale GTM dove in to understand the challenges faced by my leaders, and tailored a comprehensive program that showed them how to maximize productivity of their quota carrying reps. The cornerstone of the program was a rep coaching program, completely tailored to our needs, that was personally rolled out by John and our enablement team in a live in-person workshop. I anticipated the newly promoted sales managers would receive incredible value from this. But what I was most surprised by was how valuable this was for even our most seasoned enterprise leaders. This investment, amidst the quarterly pressure of revenue goals, proved foundational for maximizing the potential and ROI of our sales leadership team.
+            Unique Star Cabinetry dove in to understand the challenges faced by my leaders, and tailored a comprehensive program that showed them how to maximize productivity of their quota carrying reps. The cornerstone of the program was a rep coaching program, completely tailored to our needs, that was personally rolled out by John and our enablement team in a live in-person workshop. I anticipated the newly promoted sales managers would receive incredible value from this. But what I was most surprised by was how valuable this was for even our most seasoned enterprise leaders. This investment, amidst the quarterly pressure of revenue goals, proved foundational for maximizing the potential and ROI of our sales leadership team.
             </td>
             </tr>
             </tbody>
@@ -368,12 +360,12 @@ class DatabaseSeeder extends Seeder
             'body'        => "<table>
             <tbody>
             <td>
-            <h4>What led you to work with Scale GTM?</h4>
+            <h4>What led you to work with Unique Star Cabinetry?</h4>
             Leading the revenue organization in the midst of the pandemic was already challenging enough, but we also added the transition of our solution and brand from a pure communications play to an employee experience platform. These changes had a dramatic impact on how we message our value, who our buyer is, how we prospect, and so much more. We needed a partner that possessed both the breadth of knowledge, and depth of capabilities to drive this transformation across our revenue team
             </td>
             <td>
             <h4>How did the engagement go?</h4>
-            Scale GTM leaped into action. They took the time to lean in and partner with every function across my sales organization, from lead development to account executives. They delivered on a wide range of programs including selling to the new IT persona (due to our transition to a platform), upgrading outbound campaigns and sequences, instituting a CFO credible value program, and programmatically establishing a set of onboarding and ongoing enablement targeted at the lead development team. John’s personal involvement and commitment to our success led to a successful long-term relationship where I came to view Scale GTM as a trusted advisor.
+            Unique Star Cabinetry leaped into action. They took the time to lean in and partner with every function across my sales organization, from lead development to account executives. They delivered on a wide range of programs including selling to the new IT persona (due to our transition to a platform), upgrading outbound campaigns and sequences, instituting a CFO credible value program, and programmatically establishing a set of onboarding and ongoing enablement targeted at the lead development team. John’s personal involvement and commitment to our success led to a successful long-term relationship where I came to view Unique Star Cabinetry as a trusted advisor.
             </td>
             </tr>
             </tbody>
@@ -391,12 +383,12 @@ class DatabaseSeeder extends Seeder
             'body'        => "<table>
             <tbody>
             <td>
-            <h4>What led you to work with Scale GTM?</h4>
+            <h4>What led you to work with Unique Star Cabinetry?</h4>
             As the head of product marketing for the world’s leading enablement platform, it’s critical to connect the dots between our solution and the needs of our customers. The challenge is to do this at scale and still have it resonate with individual organizations and buyers. We had an opportunity to do just that through the release of Seismic Professional Edition, designed specifically to help small and medium sized businesses get started quickly and easily.
             </td>
             <td>
             <h4>How did the engagement go?</h4>
-            Scale GTM was central to crafting the messaging for our new edition and related services. They developed internal enablement deliverables and playbooks to help sellers embrace and integrate Professional Edition into their sales pursuits. With the successful rollout, we’ve been able to open up new opportunities, accelerate sales cycles, and simplify the buying process for a key segment.
+            Unique Star Cabinetry was central to crafting the messaging for our new edition and related services. They developed internal enablement deliverables and playbooks to help sellers embrace and integrate Professional Edition into their sales pursuits. With the successful rollout, we’ve been able to open up new opportunities, accelerate sales cycles, and simplify the buying process for a key segment.
             </td>
             </tr>
             </tbody>
@@ -415,12 +407,12 @@ class DatabaseSeeder extends Seeder
             'body'        => "<table>
             <tbody>
             <td>
-            <h4>What led you to work with Scale GTM?</h4>
-            When you can take credit for some of the earliest sales as an individual contributor, as well as growing out the North America sales organization, it means you’ve seen a lot! It seems like every year there is a new hurdle to clear. This past year was no exception. As customer validation of our value reached a tipping point, we decided to step on the gas pedal. Our key focus became boosting rep productivity, and Scale GTM was our trusted partner throughout.
+            <h4>What led you to work with Unique Star Cabinetry?</h4>
+            When you can take credit for some of the earliest sales as an individual contributor, as well as growing out the North America sales organization, it means you’ve seen a lot! It seems like every year there is a new hurdle to clear. This past year was no exception. As customer validation of our value reached a tipping point, we decided to step on the gas pedal. Our key focus became boosting rep productivity, and Unique Star Cabinetry was our trusted partner throughout.
             </td>
             <td>
             <h4>How did the engagement go?</h4>
-            They started by delivering a new message that deeply resonated with our buyers. Then they moved to help us standardize on MEDDPICC. Next, they engaged in team based training as well as 1:1 coaching and deal reviews. John has personally been there at every turn, good and bad, as a thought partner, as well as someone who has rolled up his sleeves. In line with our company name and brand, Scale GTM’s responsiveness, insights, and executional excellence was foundational in helping us achieve the highest sales performance in the company’s history.
+            They started by delivering a new message that deeply resonated with our buyers. Then they moved to help us standardize on MEDDPICC. Next, they engaged in team based training as well as 1:1 coaching and deal reviews. John has personally been there at every turn, good and bad, as a thought partner, as well as someone who has rolled up his sleeves. In line with our company name and brand, Unique Star Cabinetry’s responsiveness, insights, and executional excellence was foundational in helping us achieve the highest sales performance in the company’s history.
             </td>
             </tr>
             </tbody>
@@ -438,12 +430,12 @@ class DatabaseSeeder extends Seeder
             'body'        => "<table>
             <tbody>
             <td>
-            <h4>What led you to work with Scale GTM?</h4>
+            <h4>What led you to work with Unique Star Cabinetry?</h4>
             How does a leader in risk and actuarial roles end up spearheading the expansion of a partner-driven sales business? If you’ve ever worked in growth companies that are disrupting entire industries, you go where the opportunities are - and there was a significant opportunity to expand our footprint beyond our direct to consumer offering. While I was an expert on our product, I recognized that it was critical to implement a proven approach to sell and onboard distribution partners, and their agents.
             </td>
             <td>
             <h4>How did the engagement go?</h4>
-            We partnered with Scale GTM to build out, operationalize, and drive adoption of an entirely new partner sales, expansion, and onboarding process from the ground up. It’s hard to quantify the impact as these foundational items are at the core of how we run our business day in and day out. What I’m most grateful for is Scale GTM and John’s personal commitment to the development of our journey at Ethos which has empowered us to get one step closer to our mission of protecting more families with simple, affordable life insurance.
+            We partnered with Unique Star Cabinetry to build out, operationalize, and drive adoption of an entirely new partner sales, expansion, and onboarding process from the ground up. It’s hard to quantify the impact as these foundational items are at the core of how we run our business day in and day out. What I’m most grateful for is Unique Star Cabinetry and John’s personal commitment to the development of our journey at Ethos which has empowered us to get one step closer to our mission of protecting more families with simple, affordable life insurance.
             </td>
             </tr>
             </tbody>
@@ -462,8 +454,8 @@ class DatabaseSeeder extends Seeder
             'body'        => "<table>
             <tbody>
             <td>
-            <h4>What led you to work with Scale GTM?</h4>
-            While I was thrilled to be the first enablement hire at Snappy, I also recognized that the path to driving revenue impact was long and arduous. I was pleasantly surprised to learn that Scale GTM was already intimately involved across numerous critical sales initiatives such as storytelling. Scale GTM not only trained the entire field team, but spent time with each salesperson in order to coach and certify them.
+            <h4>What led you to work with Unique Star Cabinetry?</h4>
+            While I was thrilled to be the first enablement hire at Snappy, I also recognized that the path to driving revenue impact was long and arduous. I was pleasantly surprised to learn that Unique Star Cabinetry was already intimately involved across numerous critical sales initiatives such as storytelling. Unique Star Cabinetry not only trained the entire field team, but spent time with each salesperson in order to coach and certify them.
             </td>
             <td>
             <h4>How did the engagement go?</h4>
@@ -486,8 +478,8 @@ class DatabaseSeeder extends Seeder
             'body'        => "<table>
             <tbody>
             <td>
-            <h4>What led you to work with Scale GTM?</h4>
-            While I was thrilled to be the first enablement hire at Snappy, I also recognized that the path to driving revenue impact was long and arduous. I was pleasantly surprised to learn that Scale GTM was already intimately involved across numerous critical sales initiatives such as storytelling. Scale GTM not only trained the entire field team, but spent time with each salesperson in order to coach and certify them.
+            <h4>What led you to work with Unique Star Cabinetry?</h4>
+            While I was thrilled to be the first enablement hire at Snappy, I also recognized that the path to driving revenue impact was long and arduous. I was pleasantly surprised to learn that Unique Star Cabinetry was already intimately involved across numerous critical sales initiatives such as storytelling. Unique Star Cabinetry not only trained the entire field team, but spent time with each salesperson in order to coach and certify them.
             </td>
             <td>
             <h4>How did the engagement go?</h4>

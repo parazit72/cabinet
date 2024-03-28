@@ -18,38 +18,51 @@
             <div class="col-md-6">
                 <div class="hero-content">
                     <h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="1500">
-                        MEXTREO
+                        About Us
                     </h6>
-                    <h2 data-aos="fade-up" data-aos-duration="2000">About Us</h2>
+                    <h2 data-aos="fade-up" data-aos-duration="2000">Unique Star cabinetry
+                    </h2>
+
+                    <h4 data-aos="fade-up" data-aos-duration="2000">
+                        Who We Are
+                    </h4>
                     <p data-aos="fade-up" data-aos-duration="2500">
-                        Interior Design is a full service firm that specializes in high
-                        end residential projects. The mission of NYC Interior Design is
-                        to create in­te­ri­ors that are timeless, sophisticated and
-                        functional. The company was formed in 2010 by principal Erika
-                        Flugger. Trained as an Interior Designer in New York City, Erika
-                        has developed a passion for design from different eras, origins,
-                        cultures and styles. Her understanding of scale, proportion and
-                        design leads her to create harmonious, clean and warm
-                        residential environments.
+                        We're a team of passionate craftsmen and designers with over 10 years of experience dedicated to
+                        turning your cabinetry dreams into reality. From kitchen to laundry room, vanities, closets, and
+                        wall units we've got the skills and tools to make it happen.
                     </p>
-                    <p data-aos="fade-up" data-aos-duration="3000">
-                        Erika Flugger studied at the New York School of Interior Design
-                        and gained her experience working at two top design firms in New
-                        York City. She has designed, renovated and redesigned high end
-                        residential projects throughout the city and was fortunate to
-                        work on Metropolitan Home’s Showtime House, a $20 million, 8,800
-                        square foot Greek Revival townhouse in New York’s Grammercy Park
-                        that was transformed into a chic. She has designed, renovated
-                        and redesigned high end residential projects throughout the city
-                        and was fortunate to work on Me.
+                    <h4 data-aos="fade-up" data-aos-duration="2000">
+                        What Sets Us Apart
+                    </h4>
+                    <p data-aos="fade-up" data-aos-duration="2500">
+                        At unique star cabinetry, it's not just about wood and nails, it's about bringing your vision to
+                        life. Our attention to detail, love for quality materials, and commitment to craftsmanship make
+                        us stand out. Each piece we create tells a unique story, and we take pride in being a part of
+                        your home's journey.
+                    </p>
+                    <h4 data-aos="fade-up" data-aos-duration="2000">
+                        Our Process
+                    </h4>
+                    <p data-aos="fade-up" data-aos-duration="2500">
+                        From the initial sketch to the final polish, we're with you every step of the way. We listen to
+                        your ideas, our designers sketch out a plan, and then we bring it to life in our workshop. Your
+                        satisfaction is our top priority.
+                    </p>
+                    <h4 data-aos="fade-up" data-aos-duration="2000">
+                        Your Vision, Our Mission
+                    </h4>
+                    <p data-aos="fade-up" data-aos-duration="2500">
+                        Your vision is our mission. Trust us to transform your space with our years of dedicated
+                        service.
+                        <br />
+                        Let's turn your cabinetry dreams into reality!
                     </p>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="hero-inner-img">
                     <img src="assets/img/hero/inner-hero.jpg" alt data-aos="fade-left" data-aos-duration="2000" />
-                    <img src="assets/img/hero/inner-hero-after2.jpg" alt class="hero-inner-2" data-aos="fade-up"
-                        data-aos-duration="3000" />
+                    <img src="assets/img/hero/inner-hero-after2.jpg" alt class="hero-inner-2" data-aos="fade-up" data-aos-duration="3000" />
                 </div>
             </div>
         </div>

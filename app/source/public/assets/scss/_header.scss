@@ -11,7 +11,7 @@ header.mextreo-header-area {
     .logo-wrapper {
         position: relative;
         padding-top: 10px;
-
+        width: 68px;
         img {
             width: auto;
         }
@@ -317,10 +317,18 @@ span.close-sp {
     }
 }
 
+.light-logo {
+    display: none;
+}
 .home {
     .mextreo-header-area:not(.nav-fixed) {
         .logo-wrapper {
-            filter: invert(1);
+            .light-logo {
+                display: block;
+            }
+            .dark-logo {
+                display: none;
+            }
         }
     }
 }
@@ -365,4 +373,8 @@ span.close-sp {
             border-color: #fff transparent transparent transparent !important;
         }
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }

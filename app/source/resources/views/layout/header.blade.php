@@ -4,7 +4,8 @@
             <div class="col-4 col-md-4">
                 <div class="logo-wrapper">
                     <a href="index-2.html">
-                        <img src="assets/img/logo-2.svg" alt />
+                        <img src="assets/img/slide/logo.svg" class="light-logo" alt />
+                        <img src="assets/img/logo-2.svg" class="dark-logo" alt />
                     </a>
                 </div>
             </div>
@@ -21,7 +22,7 @@
                                 <li>
                                     <a href="/">Home</a>
                                 </li>
-                                <li><a href="/about-us">About Us</a></li>
+                                <li><a href="@if(!Route::is('/'))/@endif#about-us">About Us</a></li>
                                 <li>
                                     <a href="#">Projects</a>
                                     <ul>

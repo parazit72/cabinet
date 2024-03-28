@@ -50,70 +50,70 @@
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="1500">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio1.jpg">
                         <img src="assets/img/portfolio/portfolio1.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="2500">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio2.jpg">
                         <img src="assets/img/portfolio/portfolio2.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="3000">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio3.jpg">
                         <img src="assets/img/portfolio/portfolio3.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="1500">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio4.jpg">
                         <img src="assets/img/portfolio/portfolio4.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-8">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="2500">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio5.jpg">
                         <img src="assets/img/portfolio/portfolio5.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="3000">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio6.jpg">
                         <img src="assets/img/portfolio/portfolio6.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="2500">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio7.jpg">
                         <img src="assets/img/portfolio/portfolio7.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

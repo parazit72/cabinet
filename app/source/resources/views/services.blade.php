@@ -45,6 +45,9 @@
                         <li data-aos="fade-up" data-aos-duration="2800">
                             Bar
                         </li>
+                        <li data-aos="fade-up" data-aos-duration="3100">
+                            Wall units
+                        </li>
 
                     </ul>
                 </div>
@@ -52,7 +55,8 @@
             <div class="col-md-6">
                 <div class="hero-inner-img">
                     <img src="assets/img/hero/service-hero.jpg" alt data-aos="fade-left" data-aos-duration="2000" />
-                    <img src="assets/img/hero/service-hero2.jpg" alt class="hero-inner-2" data-aos="fade-up" data-aos-duration="3000" />
+                    <img src="assets/img/hero/service-hero2.jpg" alt class="hero-inner-2" data-aos="fade-up"
+                        data-aos-duration="3000" />
                 </div>
             </div>
         </div>

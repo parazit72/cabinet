@@ -27,14 +27,14 @@
                         personalized solution, often crafted to fit unique spaces or design preferences.
                     </p>
                     <h4 class="mt-4" data-aos="fade-up" data-aos-duration="3000">
-                        Custom Cabinets:
+                        Semi-Custom Cabinets:
                     </h4>
                     <p data-aos="fade-up" data-aos-duration="3000">
                         Cabinets with standard sizes but customizable features such as finishes, materials, and
                         accessories. These cabinets offer a balance between affordability and personalization.
                     </p>
                     <h4 class="mt-4" data-aos="fade-up" data-aos-duration="3000">
-                        Custom Cabinets:
+                        Stock Cabinets (Prefabricated)
                     </h4>
                     <p data-aos="fade-up" data-aos-duration="3000">
                         Pre-manufactured cabinets available in standard sizes and designs, ready for immediate purchase
@@ -77,7 +77,9 @@
                     <div class="card ">
                         <div class="card-header">
                             <h4 class="card-header">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">SKAKER <i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></a>
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseOne">SKAKER <i class="fas fa-chevron-up"></i><i
+                                        class="fas fa-chevron-down"></i></a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse in">
@@ -97,7 +99,9 @@
                     <div class="card ">
                         <div class="card-header">
                             <h4 class="card-header">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsethree">INSET<i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></a>
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapsethree">INSET<i class="fas fa-chevron-up"></i><i
+                                        class="fas fa-chevron-down"></i></a>
                             </h4>
                         </div>
                         <div id="collapsethree" class="panel-collapse collapse">
@@ -118,7 +122,9 @@
                     <div class="card ">
                         <div class="card-header">
                             <h4 class="card-header">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsetwo">LOUVERED<i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></a>
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapsetwo">LOUVERED<i class="fas fa-chevron-up"></i><i
+                                        class="fas fa-chevron-down"></i></a>
                             </h4>
                         </div>
                         <div id="collapsetwo" class="panel-collapse collapse">
@@ -134,7 +140,9 @@
                     <div class="card ">
                         <div class="card-header">
                             <h4 class="card-header">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour">Flat-panel Slab<i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></a>
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapsefour">Flat-panel Slab<i class="fas fa-chevron-up"></i><i
+                                        class="fas fa-chevron-down"></i></a>
                             </h4>
                         </div>
                         <div id="collapsefour" class="panel-collapse collapse">
@@ -165,70 +173,70 @@
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="1500">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio1.jpg">
                         <img src="assets/img/portfolio/portfolio1.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="2500">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio2.jpg">
                         <img src="assets/img/portfolio/portfolio2.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="3000">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio3.jpg">
                         <img src="assets/img/portfolio/portfolio3.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="1500">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio4.jpg">
                         <img src="assets/img/portfolio/portfolio4.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-8">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="2500">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio5.jpg">
                         <img src="assets/img/portfolio/portfolio5.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="3000">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio6.jpg">
                         <img src="assets/img/portfolio/portfolio6.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="portfolio-img" data-aos="fade-up" data-aos-duration="2500">
                     <a data-fancybox="gallery" href="assets/img/portfolio/portfolio7.jpg">
                         <img src="assets/img/portfolio/portfolio7.jpg" alt /><i class="flaticon-add rp-icon"></i></a>
-                    <div class="sp-text">
+                    <!-- <div class="sp-text">
                         <h3>Introgen Abultreso</h3>
                         <p>Dedisgn, House</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>

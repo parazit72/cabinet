@@ -5,8 +5,8 @@
                 <div class="hero-content">
                     <h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="1500">Contact</h6>
                     <h2 data-aos="fade-up" data-aos-duration="2000">Get In Touch</h2>
-                    <p data-aos="fade-up" data-aos-duration="2500">We are waiting for you on our office in New York
-                        or in way, contact us via the contact form below your idea.</p>
+                    <p data-aos="fade-up" data-aos-duration="2500">we are waiting for you to provide our special offer
+                        and solution please contact us.</p>
                     <div class="mextreo-contact" data-aos="fade-up" data-aos-duration="3000">
                         <form id="cf" method="POST">
                             <div class="form-group mcfg">
@@ -61,8 +61,11 @@
                 <div class="contact-details" data-aos="fade-up" data-aos-duration="3000">
                     <img src="assets/img/logo-contact.svg" alt>
                     <div class="single-info">
-                        <h5>Address:</h5>
-                        <p>40 Hodgkinson Crescent<br /> Aurora, ON L4G 6K7</p>
+                        <br />
+                        <br />
+                        <br />
+                        <!-- <h5>Address:</h5>
+                        <p>40 Hodgkinson Crescent<br /> Aurora, ON L4G 6K7</p> -->
                     </div>
                     <div class="single-info">
                         <h5>Phone:</h5>
@@ -70,13 +73,11 @@
                             <a href="tel:+16479189794">+1 (647) 918-9794</a>
                         </p>
                         <p>
-                            <a href="tel:+16479189794">+1 (647) 918-9794</a>
                         </p>
                     </div>
                     <div class="single-info">
                         <h5>Email:</h5>
                         <p><a href="mailto:info@uniquestarcabinetry.ca">info@uniquestarcabinetry.ca</a></p>
-                        <p><a href="mailto:hello@uniquestarcabinetry.ca">hello@uniquestarcabinetry.ca</a></p>
                     </div>
                 </div>
             </div>

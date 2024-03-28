@@ -42,7 +42,7 @@
 
 
 
-<section class="mextreo-about">
+<section class="mextreo-about" id="about-us">
     <div class="container">
         <div class="row">
             <div class="col-md-5 order-md-1 order-2">
@@ -260,7 +260,7 @@
 </section>
 
 
-
+<!-- 
 <section class="testimonial">
     <div class="container">
         <div class="row">
@@ -349,7 +349,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 
 <section class="mextreo-blog">
