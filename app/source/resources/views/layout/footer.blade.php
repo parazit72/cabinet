@@ -4,7 +4,8 @@
             <div class="col-md-12">
                 <div class="subscribe">
                     <form>
-                        <input type="text" class="form-control" placeholder=" Enter your email address....." onfocus="this.placeholder=''" onblur="this.placeholder='Enter your email address.....'" />
+                        <input type="text" class="form-control" placeholder=" Enter your email address....."
+                            onfocus="this.placeholder=''" onblur="this.placeholder='Enter your email address.....'" />
                         <button type="submit" class="btn btn-primary sub-btn">
                             Subscribe
                         </button>
@@ -25,7 +26,7 @@
             <div class="col-md-10">
                 <div class="footer-nav">
                     <ul>
-                        <li>Copyright © 2024! <a href="{{config('app.url')}}/">UNIQUE STAR CABINETRY!</a></li>
+                        <li>Designed by <a href="https://amaj.ca">AMAJ.CA</a></li>
                         <li>|</li>
                         <li><a href>Privacy Policy</a></li>
                         <li>|</li>

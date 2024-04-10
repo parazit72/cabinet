@@ -29,7 +29,7 @@
                     </p>
 
                     <div>
-                        <a href="#" class="btn-1 btn-primary">
+                        <a href="#projects" class="btn-1 btn-primary">
                             Discover More
                         </a>
                     </div>
@@ -107,7 +107,7 @@
 
 
 
-<section class="mextreo-blog">
+<section class="mextreo-blog" id="projects">
     <div class="container">
         <div class="mex-blog-top">
             <h2 class="mb-tittle">Projects</h2>

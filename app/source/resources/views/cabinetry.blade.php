@@ -77,9 +77,7 @@
                     <div class="card ">
                         <div class="card-header">
                             <h4 class="card-header">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapseOne">SKAKER <i class="fas fa-chevron-up"></i><i
-                                        class="fas fa-chevron-down"></i></a>
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">SHAKER <i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></a>
                             </h4>
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse in">
@@ -99,9 +97,7 @@
                     <div class="card ">
                         <div class="card-header">
                             <h4 class="card-header">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapsethree">INSET<i class="fas fa-chevron-up"></i><i
-                                        class="fas fa-chevron-down"></i></a>
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsethree">INSET<i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></a>
                             </h4>
                         </div>
                         <div id="collapsethree" class="panel-collapse collapse">
@@ -122,9 +118,7 @@
                     <div class="card ">
                         <div class="card-header">
                             <h4 class="card-header">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapsetwo">LOUVERED<i class="fas fa-chevron-up"></i><i
-                                        class="fas fa-chevron-down"></i></a>
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsetwo">LOUVERED<i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></a>
                             </h4>
                         </div>
                         <div id="collapsetwo" class="panel-collapse collapse">
@@ -140,9 +134,7 @@
                     <div class="card ">
                         <div class="card-header">
                             <h4 class="card-header">
-                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion"
-                                    href="#collapsefour">Flat-panel Slab<i class="fas fa-chevron-up"></i><i
-                                        class="fas fa-chevron-down"></i></a>
+                                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapsefour">Flat-panel Slab<i class="fas fa-chevron-up"></i><i class="fas fa-chevron-down"></i></a>
                             </h4>
                         </div>
                         <div id="collapsefour" class="panel-collapse collapse">

@@ -475,6 +475,13 @@ Responsive Style
 
 // Small devices (landscape phones, less than 768px)
 @media only screen and (max-width: 767px) {
+    .home .mextreo-header-area:not(.nav-fixed) .sm-mint > li > a,
+    .home .mextreo-header-area:not(.nav-fixed) .sm-mint > li > a:hover,
+    .home .mextreo-header-area:not(.nav-fixed) .sm-mint > li > a:focus,
+    .home .mextreo-header-area:not(.nav-fixed) .sm-mint > li > a:active,
+    .home .mextreo-header-area:not(.nav-fixed) .sm-mint > li > a.highlighted {
+        color: rgb(0, 0, 0) !important;
+    }
     header.mextreo-header-area.nav-fixed .logo-wrapper {
         width: 90px;
     }
@@ -485,7 +492,7 @@ Responsive Style
         width: 30vw;
     }
     .sm-mint a {
-        color: rgb(0, 0, 0);
+        color: rgb(0, 0, 0) !important;
         padding: 14px 10px;
         font-size: 12px;
     }
@@ -507,7 +514,7 @@ Responsive Style
         box-shadow: 0 4px 3px rgba(0, 0, 0, 0.25);
     }
 
-    header.mextreo-header-area .mextreo-menu .side-ber {
+    header.mextreo-header-area .side-ber {
         display: none;
     }
     li.tel {

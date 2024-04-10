@@ -45,7 +45,7 @@
                         <li data-aos="fade-up" data-aos-duration="2800">
                             Bar
                         </li>
-                        <li data-aos="fade-up" data-aos-duration="3100">
+                        <li data-aos="fade-up" data-aos-duration="3000">
                             Wall units
                         </li>
 
@@ -55,8 +55,7 @@
             <div class="col-md-6">
                 <div class="hero-inner-img">
                     <img src="assets/img/hero/service-hero.jpg" alt data-aos="fade-left" data-aos-duration="2000" />
-                    <img src="assets/img/hero/service-hero2.jpg" alt class="hero-inner-2" data-aos="fade-up"
-                        data-aos-duration="3000" />
+                    <img src="assets/img/hero/service-hero2.jpg" alt class="hero-inner-2" data-aos="fade-up" data-aos-duration="3000" />
                 </div>
             </div>
         </div>
@@ -237,6 +236,37 @@
 </section>
 
 
+<section class="interior">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="ab-interior-content">
+                    <h6 class="ht-tittle" data-aos="fade-right" data-aos-duration="2500">
+                        our Service
+                    </h6>
+                    <h2 data-aos="fade-up" data-aos-duration="2000">Wall units</h2>
+                    <p data-aos="fade-up" data-aos-duration="2500">
+                        Wall unit cabinetry services provide custom design, fabrication, and installation of
+                        wall-mounted cabinets tailored to meet the specific needs and aesthetic preferences of clients.
+                        This service encompasses a comprehensive approach, from initial consultation and design planning
+                        to the selection of materials and finishes, ensuring the cabinetry perfectly fits the available
+                        space and complements the existing décor. Ideal for homeowners looking to maximize storage,
+                        enhance functionality, and elevate the visual appeal of their kitchens, living rooms, offices,
+                        or bathrooms, wall unit cabinetry services offer a seamless blend of practicality and style.
+                        Skilled professionals work closely with clients at every step, guaranteeing a personalized
+                        solution that combines quality craftsmanship with innovative design, transforming any room into
+                        an organized, stylish, and efficient space.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="interior-img" data-aos="fade-up" data-aos-duration="2500">
+                    <img src="assets/img/hero/service-hero2.jpg" alt />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 @include('common.contact')
 
 @endsection
