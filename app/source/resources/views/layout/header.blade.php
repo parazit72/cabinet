@@ -52,6 +52,8 @@
 
 <div class="hero-social">
     <ul>
-        <li data-aos="fade-up" data-aos-duration="2500" class="aos-init aos-animate"><a href=""><i class="flaticon-instagram"></i></a></li>
+        <li data-aos="fade-up" data-aos-duration="2500" class="aos-init aos-animate"><a
+                href="https://www.instagram.com/unique_star_cabinetry?igsh=MzRlODBiNWFlZA=="><i
+                    class="flaticon-instagram"></i></a></li>
     </ul>
 </div>
